@@ -1,12 +1,12 @@
 #!/bin/bash
 echo "🛠 Updating system..."
 sudo zypper refresh
-sudo zypper update -y
+sudo zypper update
 
 echo "Installing XFCE desktop and TigerVNC..."
 sudo zypper install -t pattern xfce 
-sudo zypper install xrdp -y
-sudo zypper install xrdp tigervnc-x11vnc -y
+sudo zypper install xrdp 
+sudo zypper install xrdp tigervnc-x11vnc 
 echo "Configuring .xsession for XFCE..."
 echo "exec startxfce4" > ~/.xsession 
 chmod +x ~/.xsession
