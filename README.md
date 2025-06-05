@@ -12,13 +12,15 @@ Using RDP from Windows to OpenSUSE
 
 1. Create a Lightsail Instance
 
+![image](https://github.com/user-attachments/assets/cc81a404-12a9-4c31-b904-9d1a7c624678)
+
    - Choose Linux/Unix  
    - Select Operating System (OS) only  
    - Select OpenSUSE  
    - Choose desired plan  
    - Create
   
-2. Update System
+3. Update System
 
 ![image](https://github.com/user-attachments/assets/2dfb1a5e-4ece-44d7-818a-558d19ae4e23)
 
@@ -202,6 +204,13 @@ chmod +x setup-xrdp.sh
 ./setup-xrdp.sh
 ```
 
+‼️ When You’re Done:
 
-‼️ Remember to always stop these instances or remove them if not in use to avoid unexpected charges.
+Stop your instances
+
+Detach (or release) static IPs
+
+Delete unused firewall rules
+
+Remove unneeded snapshots
 
