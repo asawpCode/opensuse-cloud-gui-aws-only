@@ -225,6 +225,6 @@ Remove unneeded snapshots
 
 Contributions, suggestions, and feedback are welcome! Please open issues or pull requests.
 
-## Connect & Support
+## Connect
 
-If you find this project useful or have questions, feel free to reach out!
+If you find this project useful or have questions, feel free to reach out or post comments below!
