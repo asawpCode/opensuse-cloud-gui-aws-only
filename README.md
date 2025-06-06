@@ -1,12 +1,22 @@
 # 🐧 OpenSUSE XFCE + xrdp through Windows Instance Setup on AWS Lightsail (FREE TIER ELIGIBLE)
 
 This tutorial is meant as a solution to use OPENSUSE on an AWS Lightsail instance while keeping everything contained within the AWS environment.
-Steps to set it up manually or via automation.
 
-Steps covered:
-Setting up OpenSUSE and Windows instances in Lightsail
-Installing GUI, Networking
-Using RDP from Windows to OpenSUSE
+It will help you quickly set up a lightweight **OpenSUSE XFCE desktop environment** on an AWS Lightsail instance — accessible remotely via **RDP (Remote Desktop Protocol)** from your Windows machine. Perfect for Linux enthusiasts, developers, or anyone wanting a full Linux GUI in the cloud without a complex setup being necessary.
+
+## Why Use This?
+
+- **Simple & Cost-Effective:** Utilizes AWS Lightsail which is cost effective and affordable.
+- **Remote Desktop Ready:** Access your OpenSUSE Linux desktop easily from a Windows instance using RDP.
+- **Automation Included:** Scripts automate installing XFCE, xrdp, and configuring your instance for a quick set-up.
+- **AWS-Contained:** Everything can be done on the AWS platform, without needing access to any third-party software.
+- **Great for Learning, Development, and Testing:** Spin up a Linux desktop quickly without dedicated hardware.
+
+## Requirements
+
+- AWS Account with Lightsail access
+- Basic familiarity with AWS Lightsail console
+- Basic Linux familiarity
 
 ## Manual Setup
 
@@ -207,10 +217,14 @@ chmod +x setup-xrdp.sh
 ‼️ When You’re Done:
 
 Stop your instances
-
 Detach (or release) static IPs
-
 Delete unused firewall rules
-
 Remove unneeded snapshots
 
+## Contributing
+
+Contributions, suggestions, and feedback are welcome! Please open issues or pull requests.
+
+## Connect & Support
+
+If you find this project useful or have questions, feel free to reach out!
